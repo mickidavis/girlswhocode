@@ -21,15 +21,16 @@ public class Student {
    }
 
 //METHODS
-   public takeTest() {
+   public void takeTest() {
       numTestsTaken++; //same thing as saying numTestsTaken += 1 --> which is the same thing as numTestsTaken = numTestsTaken + 1;
+      System.out.println("number of tests taken is " + numTestsTaken);
    }
 
-   public setGPA(int inputGPA) {
+   public void setGPA(int inputGPA) {
       //what we would want to do in this method?
    }
 
-   public setName(what would we want to put in these parantheses?) {
+   public void setName() { //<-- what do we want to put in these parantheses?
       //what we would want to do in this method?
    }
 
